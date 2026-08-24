@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samakal - News Portal Clone</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm">
+        <div class="container py-2 d-flex justify-content-between align-items-center">
+            <div class="d-none d-lg-flex small text-muted">
+                <i class="fas fa-map-marker-alt me-1"></i> ঢাকা, শুক্রবার, ২১ আগস্ট ২০২৬
+            </div>
+            <div class="social-icons d-flex gap-2">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div>
+                <a href="#" class="btn btn-sm btn-light border">ই-পেপার</a>
+                <a href="#" class="btn btn-sm btn-light border">English</a>
+            </div>
+        </div>
+
+        <!-- Logo Area -->
+        <div class="container text-center py-3">
+            <h1 class="display-3 fw-bold site-logo">সমকাল</h1>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-top border-bottom">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
+                        <li class="nav-item"><a class="nav-link active" href="#">সর্বশেষ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">বাংলাদেশ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">রাজনীতি</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">অর্থনীতি</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">বিশ্ব</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">খেলা</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">বিনোদন</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">সারাদেশ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">অপরাধ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">মতামত</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">রাজধানী</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">লাইফস্টাইল</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">অন্যান্য</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">বিজ্ঞান</a></li>
+                                <li><a class="dropdown-item" href="#">স্বাস্থ্য</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container my-4">
+        
+        <!-- Section 1: Featured News (Bootstrap Grid) -->
+        <section class="row g-4 mb-5">
+            <!-- Main Headline -->
+            <div class="col-lg-5">
+                <div class="card border-0 h-100">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="ratio ratio-16x9 bg-light">
+                            <img src="https://via.placeholder.com/600x400/cccccc/333333?text=Breaking+News" class="card-img-top object-fit-cover" alt="News Image">
+                        </div>
+                        <div class="card-body px-0">
+                            <h2 class="card-title fw-bold">নারায়ণগঞ্জে পুকুরে ডুবে প্রাণ গেল ৪ শিশুর</h2>
+                            <p class="card-text text-muted small">নারায়ণগঞ্জের আড়াইহাজারের পুকুরে পানিতে ডুবে চার শিশুর মৃত্যু হয়েছে...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Featured Middle Banners -->
+            <div class="col-lg-4">
+                <div class="mb-3 bg-light text-center" style="height: 250px; display: flex; align-items: center; justify-content: center; border: 1px solid #ddd;">
+                    <h4 class="text-muted"><i class="fas fa-hand-paper me-2"></i>সমকাল</h4>
+                </div>
+                <div class="row g-2">
+                    <div class="col-6">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div class="ratio ratio-1x1 bg-light">
+                                <img src="https://via.placeholder.com/150/ffcccb/333333?text=Festival" class="object-fit-cover">
+                            </div>
+                            <p class="small fw-bold mt-1 mb-0 text-truncate-2">রংপুরে পিঠা উৎসব, শনিবারের মধ্যে শেষ</p>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div class="ratio ratio-1x1 bg-light">
+                                <img src="https://via.placeholder.com/150/cce5ff/333333?text=Politics" class="object-fit-cover">
+                            </div>
+                            <p class="small fw-bold mt-1 mb-0 text-truncate-2">রাষ্ট্রপতি নির্বাচনে ৬ এমপি ভোট দেননি</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar News List -->
+            <div class="col-lg-3 border-start">
+                <div class="d-flex gap-2 mb-3">
+                    <div class="flex-grow-1">
+                        <a href="#" class="text-decoration-none text-dark"><h6 class="fw-bold">মির্জা ফখরুলকে ভোট দিয়েছেন ইসলামী আন্দোলনের এমপি</h6></a>
+                    </div>
+                    <div style="width: 80px; height: 80px;">
+                        <img src="https://via.placeholder.com/80" class="w-100 h-100 object-fit-cover rounded">
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex gap-2 mb-3">
+                    <div class="flex-grow-1">
+                        <a href="#" class="text-decoration-none text-dark"><h6 class="fw-bold text-danger">সিপিবির সমীক্ষা / পোশাক কারখানার ছাদ থেকে ২৮১৫ মেগাওয়াট বিদ্যুৎ</h6></a>
+                    </div>
+                    <div style="width: 80px; height: 80px;">
+                        <img src="https://via.placeholder.com/80" class="w-100 h-100 object-fit-cover rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Photo Gallery (Photo Credit: 4 columns) -->
+        <section class="mb-5 photo-gallery-section">
+            <div class="d-flex align-items-center mb-3 border-bottom pb-2">
+                <h4 class="fw-bold mb-0 me-3">ফটোগ্যালারি</h4>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-5">
+                    <a href="#" class="text-decoration-none text-white position-relative d-block">
+                        <div class="ratio ratio-16x9">
+                            <img src="https://via.placeholder.com/600x400/222/fff?text=Main+Photo" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="position-absolute bottom-0 start-0 w-100 p-2 bg-dark bg-opacity-75">
+                            <p class="mb-0 fw-bold small">টেইলর সুইফট-ট্রাভিস কেলেসের বিবাহ অনুষ্ঠানে তারকারা</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <a href="#" class="text-decoration-none text-dark position-relative d-block">
+                                <div class="ratio ratio-16x9">
+                                    <img src="https://via.placeholder.com/300x200/337ab7/fff?text=Photo+1" class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <p class="small fw-bold mt-1">মাউথ অফ ৩৩-এর শেষ দিনে গ্যালারির চিত্র</p>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="text-decoration-none text-dark position-relative d-block">
+                                <div class="ratio ratio-16x9">
+                                    <img src="https://via.placeholder.com/300x200/5cb85c/fff?text=Photo+2" class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <p class="small fw-bold mt-1">দেশে দেশে ঈদ উদযাপন, দেখুন ছবিতে</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Lifestyle & Prayer Time -->
+        <section class="row g-4 mb-5">
+            <!-- Left: Lifestyle News -->
+            <div class="col-lg-9">
+                <div class="d-flex align-items-center mb-3 border-bottom pb-2">
+                    <h4 class="fw-bold mb-0 text-warning">লাইফস্টাইল</h4>
+                </div>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column h-100">
+                            <div class="ratio ratio-16x9 mb-2">
+                                <img src="https://via.placeholder.com/400x250/ffc107/333?text=Ananya" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <h5 class="fw-bold"><a href="#" class="text-dark text-decoration-none">ঋণ তাড়াতে অভিনেত্রী অনন্যা পায়ে করেন</a></h5>
+                            <p class="small text-muted text-truncate-3">অরণের উপর ‘পিপল প্যাচ’ লাগালে ভিতর থেকে পুজ, তেল ও ফ্রিক্তির তলও শেষ হয়ে যায়...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <img src="https://via.placeholder.com/150/ff9f43/fff?text=Dragon" class="w-100 rounded object-fit-cover mb-1" style="aspect-ratio: 1/1;">
+                                    <p class="small fw-bold mb-0">ড্রাগন ফল খাওয়া যাদের জন্য নিরাপদ নয়</p>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <img src="https://via.placeholder.com/150/54a0ff/fff?text=Health" class="w-100 rounded object-fit-cover mb-1" style="aspect-ratio: 1/1;">
+                                    <p class="small fw-bold mb-0">পেট ফাঁপা ও ভারী ভাব কমাতে সকালে মেনে চলুন ৭ সহজ অভ্যাস</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Prayer Time Sidebar -->
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-header bg-danger text-white fw-bold text-center">বাংলাদেশে সময়সূচী</div>
+                    <div class="card-body p-0">
+                        <table class="table table-bordered mb-0 text-center small">
+                            <tbody>
+                                <tr><td class="fw-bold bg-light">ফজর</td><td>০৪:১৮ ভোর</td></tr>
+                                <tr><td class="fw-bold bg-light">যোহর</td><td>১২:০৬ দুপুর</td></tr>
+                                <tr><td class="fw-bold bg-light">আসর</td><td>৪:৩৬ বিকেল</td></tr>
+                                <tr><td class="fw-bold bg-light">মাগরিব</td><td>৬:৩১ সন্ধ্যা</td></tr>
+                                <tr><td class="fw-bold bg-light">ইশা</td><td>৭:৪৯ রাত</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer bg-warning text-dark small text-center fw-bold">ঢাকা, বৃহস্পতিবার, ২০ আগস্ট ২০২৬</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light border-top mt-5 py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <h6 class="fw-bold">প্রাইভেসি পলিসি</h6>
+                    <h6 class="fw-bold mt-3">টার্মস অফ ইউজ</h6>
+                    <p class="small text-muted mt-3">SAMAKAL ALL RIGHTS RESERVED</p>
+                </div>
+                <div class="col-md-6 text-center text-md-start">
+                    <h6 class="fw-bold">সম্পাদক : শাহেদ মুহাম্মদ আলী</h6>
+                    <h6 class="fw-bold">প্রকাশক : আবুল কালাম আজাদ</h6>
+                    <p class="small text-muted mb-1"><i class="fas fa-phone"></i> ফোন : ৫৫০২৮৩২-৩৮</p>
+                    <p class="small text-muted mb-1"><i class="fas fa-envelope"></i> ই-মেইল: samakalad@gmail.com</p>
+                    <p class="small text-muted">টাইমস মিডিয়া ভবন (৫ম তলা), ৮৭ তেজগাঁও শিল্প এলাকা, ঢাকা - ১২০৮</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <p class="small fw-bold">ফলো করুন সমকাল-এর খবর</p>
+                    <div class="social-icons d-flex justify-content-center gap-3 fs-5 mb-3">
+                        <a href="#" class="text-primary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-info"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-primary"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-danger"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-danger"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <h3 class="fw-bold mb-0">সমকাল</h3>
+                    <p class="small text-muted mt-2">© ২০০৫ - ২০২৬ সমকাল কর্তৃক সর্বস্বত্ব সংরক্ষিত</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="backToTop" class="btn btn-warning rounded-circle position-fixed bottom-0 end-0 m-4 shadow d-none" style="width: 50px; height: 50px;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
